@@ -8,8 +8,8 @@ async function main() {
   const files = await fg('src/**/*.css');
 
   for (const file of files) {
-    const rel = path.relative('src', file);      // e.g. components/charts/charts.module.css
-    const dest = path.join('dist', rel);         // e.g. dist/components/charts/charts.module.css
+    const rel = path.relative('src', file); // e.g. components/charts/charts.module.css
+    const dest = path.join('dist', rel); // e.g. dist/components/charts/charts.module.css
 
     await fs.promises.mkdir(path.dirname(dest), { recursive: true });
     await fs.promises.copyFile(file, dest);
