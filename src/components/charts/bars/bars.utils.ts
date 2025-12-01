@@ -1,5 +1,5 @@
 import { ChartData, ChartOptions } from 'chart.js';
-import { chartContrastColors } from '../charts.constants';
+import { getChartContrastColors } from '../charts.constants';
 import { getStyleNumber } from '../../../styles/styles.utils';
 import { mergician } from 'mergician';
 import { BarChartConfigurationProps, BarChartHorizontalConfigurationProps } from './bars.types';
@@ -13,6 +13,7 @@ import {
 } from '../chartjs.cartesian.constants';
 
 export const getBarChartData = (data: ChartData<'bar'>): ChartData<'bar'> => {
+  const chartContrastColors = getChartContrastColors();
   return {
     ...data,
     datasets: data.datasets?.map((dataset, index) => {

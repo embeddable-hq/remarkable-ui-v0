@@ -1,3 +1,111 @@
+// Auto-generated from global.css
+// Do not edit manually.
+
+export const stylesTokensCore = {
+  '--em-core-border-radius--000': '0px',
+  '--em-core-border-radius--050': '2px',
+  '--em-core-border-radius--100': '4px',
+  '--em-core-border-radius--150': '6px',
+  '--em-core-border-radius--200': '8px',
+  '--em-core-border-radius--300': '12px',
+  '--em-core-border-radius--400': '32px',
+  '--em-core-border-radius--500': '9999px',
+  '--em-core-border-width--000': '0px',
+  '--em-core-border-width--025': '1px',
+  '--em-core-border-width--050': '2px',
+  '--em-core-border-width--100': '4px',
+  '--em-core-color-gray--0000': 'rgb(255 255 255)',
+  '--em-core-color-gray--0050': 'rgb(247 247 248)',
+  '--em-core-color-gray--0100': 'rgb(237 237 241)',
+  '--em-core-color-gray--0200': 'rgb(228 228 234)',
+  '--em-core-color-gray--0300': 'rgb(210 210 213)',
+  '--em-core-color-gray--0400': 'rgb(184 184 189)',
+  '--em-core-color-gray--0500': 'rgb(144 144 152)',
+  '--em-core-color-gray--0600': 'rgb(114 114 121)',
+  '--em-core-color-gray--0700': 'rgb(92 92 102)',
+  '--em-core-color-gray--0800': 'rgb(49 49 61)',
+  '--em-core-color-gray--0900': 'rgb(33 33 41)',
+  '--em-core-color-gray--1000': 'rgb(0 0 0)',
+  '--em-core-font-family--base': "'inter'",
+  '--em-core-font-size--md': '16px',
+  '--em-core-font-size--sm': '14px',
+  '--em-core-font-size--xl': '20px',
+  '--em-core-font-size--xs': '12px',
+  '--em-core-font-size--xxl': '32px',
+  '--em-core-font-weight--bold': '700',
+  '--em-core-font-weight--medium': '500',
+  '--em-core-font-weight--regular': '400',
+  '--em-core-line-height--l': '19px',
+  '--em-core-line-height--md': '16px',
+  '--em-core-line-height--sm': '14px',
+  '--em-core-line-height--xl': '38px',
+  '--em-core-shadow-blur': '40px',
+  '--em-core-shadow-color': 'rgb(33 33 41 / 25%)',
+  '--em-core-shadow-position-x': '0px',
+  '--em-core-shadow-position-y': '1px',
+  '--em-core-shadow-spread': '0px',
+  '--em-core-size--0000': '0px',
+  '--em-core-size--0050': '2px',
+  '--em-core-size--0100': '4px',
+  '--em-core-size--0150': '6px',
+  '--em-core-size--0200': '8px',
+  '--em-core-size--0300': '12px',
+  '--em-core-size--0400': '16px',
+  '--em-core-size--0500': '20px',
+  '--em-core-size--0600': '24px',
+  '--em-core-size--0700': '28px',
+  '--em-core-size--0800': '32px',
+  '--em-core-size--0900': '36px',
+  '--em-core-size--1000': '40px',
+  '--em-core-size--1200': '48px',
+  '--em-core-size--1600': '64px',
+  '--em-core-size--2000': '80px',
+  '--em-core-spacing--0000': '0px',
+  '--em-core-spacing--0050': '2px',
+  '--em-core-spacing--0100': '4px',
+  '--em-core-spacing--0150': '6px',
+  '--em-core-spacing--0200': '8px',
+  '--em-core-spacing--0300': '12px',
+  '--em-core-spacing--0400': '16px',
+  '--em-core-spacing--0500': '20px',
+  '--em-core-spacing--0600': '24px',
+  '--em-core-spacing--0700': '28px',
+  '--em-core-spacing--0800': '32px',
+  '--em-core-spacing--0900': '36px',
+  '--em-core-spacing--1000': '40px',
+  '--em-core-spacing--1200': '48px',
+  '--em-core-spacing--1600': '64px',
+  '--em-core-spacing--2000': '80px',
+};
+
+export const stylesTokensSemantic = {
+  '--em-sem-background': 'var(--em-core-color-gray--0050)',
+  '--em-sem-background--inverted': 'var(--em-core-color-gray--0900)',
+  '--em-sem-background--light': 'var(--em-core-color-gray--0100)',
+  '--em-sem-background--muted': 'var(--em-core-color-gray--0300)',
+  '--em-sem-background--neutral': 'var(--em-core-color-gray--0000)',
+  '--em-sem-background--subtle': 'var(--em-core-color-gray--0200)',
+  '--em-sem-chart-color--1': 'rgb(255 84 0)',
+  '--em-sem-chart-color--10': 'rgb(255 238 230)',
+  '--em-sem-chart-color--2': 'rgb(255 102 26)',
+  '--em-sem-chart-color--3': 'rgb(255 119 51)',
+  '--em-sem-chart-color--4': 'rgb(255 136 77)',
+  '--em-sem-chart-color--5': 'rgb(255 153 102)',
+  '--em-sem-chart-color--6': 'rgb(255 170 128)',
+  '--em-sem-chart-color--7': 'rgb(255 187 153)',
+  '--em-sem-chart-color--8': 'rgb(255 204 179)',
+  '--em-sem-chart-color--9': 'rgb(255 221 204)',
+  '--em-sem-status-error-background': 'rgb(246 226 226)',
+  '--em-sem-status-error-text': 'rgb(188 16 16)',
+  '--em-sem-status-success-background': 'rgb(225 240 233)',
+  '--em-sem-status-success-text': 'rgb(15 149 90)',
+  '--em-sem-text': 'var(--em-core-color-gray--0900)',
+  '--em-sem-text--inverted': 'var(--em-core-color-gray--0000)',
+  '--em-sem-text--muted': 'var(--em-core-color-gray--0700)',
+  '--em-sem-text--neutral': 'var(--em-core-color-gray--1000)',
+  '--em-sem-text--subtle': 'var(--em-core-color-gray--0400)',
+};
+
 export const stylesTokensComponents = {
   '--em-actionicon-background': 'var(--em-sem-background--light)',
   '--em-actionicon-background--active': 'var(--em-sem-background--muted)',
@@ -10,10 +118,8 @@ export const stylesTokensComponents = {
   '--em-actionicon-padding-left-right': 'var(--em-core-spacing--0050)',
   '--em-actionicon-padding-top-bottom': 'var(--em-core-spacing--0200)',
   '--em-actionicon-width': 'var(--em-core-size--0500)',
-
   '--em-barchart-border-radius': 'var(--em-core-border-radius--150)',
   '--em-barchart-label-gap': 'var(--em-core-spacing--0200)',
-
   '--em-button-background--disabled': 'var(--em-sem-background--light)',
   '--em-button-background--primary': 'var(--em-sem-text--muted)',
   '--em-button-background--primary--active': 'var(--em-sem-text--neutral)',
@@ -40,7 +146,6 @@ export const stylesTokensComponents = {
   '--em-button-padding-left-right--small': 'var(--em-core-spacing--0150)',
   '--em-button-padding-top-bottom--medium': 'var(--em-core-spacing--0300)',
   '--em-button-padding-top-bottom--small': 'var(--em-core-spacing--0150)',
-
   '--em-buttonicon-background--primary': 'var(--em-sem-text--muted)',
   '--em-buttonicon-background--primary--active': 'var(--em-sem-text--neutral)',
   '--em-buttonicon-background--primary--disabled': 'var(--em-sem-background--light)',
@@ -60,7 +165,6 @@ export const stylesTokensComponents = {
   '--em-buttonicon-padding-left-right--small': 'var(--em-core-spacing--0150)',
   '--em-buttonicon-padding-top-bottom--medium': 'var(--em-core-spacing--0300)',
   '--em-buttonicon-padding-top-bottom--small': 'var(--em-core-spacing--0150)',
-
   '--em-card-background': 'var(--em-sem-background)',
   '--em-card-border-radius': 'var(--em-core-border-radius--400)',
   '--em-card-feedback-color--error': 'var(--em-sem-status-error-text)',
@@ -90,7 +194,6 @@ export const stylesTokensComponents = {
   '--em-card-title-font-size': 'var(--em-core-font-size--md)',
   '--em-card-title-font-weight': 'var(--em-core-font-weight--bold)',
   '--em-card-title-line-height': 'var(--em-core-line-height--l)',
-
   '--em-chart-category-color': 'var(--em-sem-text--muted)',
   '--em-chart-category-font-family': 'var(--em-core-font-family--base)',
   '--em-chart-category-font-size': 'var(--em-core-font-size--xs)',
@@ -101,19 +204,16 @@ export const stylesTokensComponents = {
   '--em-chart-category-line-height': 'var(--em-core-line-height--sm)',
   '--em-chart-category-list-gap': 'var(--em-core-spacing--0400)',
   '--em-chart-category-size': 'var(--em-core-size--0300)',
-
+  '--em-chart-grid-font-family': 'var(--em-core-font-family--base)',
   '--em-chart-grid-label-color': 'var(--em-sem-text)',
   '--em-chart-grid-label-color--light': 'var(--em-sem-background--light)',
   '--em-chart-grid-label-color--muted': 'var(--em-sem-text--muted)',
   '--em-chart-grid-label-color--subtle': 'var(--em-sem-text--subtle)',
-  '--em-chart-grid-line-color': 'var(--em-sem-text)',
-  '--em-chart-grid-line-color--light': 'var(--em-sem-background--light)',
-  '--em-chart-grid-line-color--muted': 'var(--em-sem-text--muted)',
-  '--em-chart-grid-line-color--subtle': 'var(--em-sem-text--subtle)',
-
-  '--em-chart-grid-font-family': 'var(--em-core-font-family--base)',
   '--em-chart-grid-label-font-size': 'var(--em-core-font-size--xs)',
   '--em-chart-grid-label-font-weight': 'var(--em-core-font-weight--regular)',
+  '--em-chart-grid-line-color': 'var(--em-sem-text)',
+  '--em-chart-grid-line-color--light': 'var(--em-sem-background--light)',
+  '--em-chart-grid-line-color--subtle': 'var(--em-sem-text--subtle)',
   '--em-chart-grid-line-width--medium': '2px',
   '--em-chart-grid-line-width--thick': '4px',
   '--em-chart-grid-line-width--thin': '1px',
@@ -121,7 +221,6 @@ export const stylesTokensComponents = {
   '--em-chart-grid-tick-width': '1px',
   '--em-chart-grid-title-font-size': 'var(--em-core-font-size--sm)',
   '--em-chart-grid-title-font-weight': 'var(--em-core-font-weight--bold)',
-
   '--em-chart-label-background': 'var(--em-sem-background--neutral)',
   '--em-chart-label-border-radius': 'var(--em-core-border-radius--500)',
   '--em-chart-label-color': 'var(--em-sem-text)',
@@ -131,7 +230,6 @@ export const stylesTokensComponents = {
   '--em-chart-label-line-height': 'var(--em-core-line-height--sm)',
   '--em-chart-label-padding-left-right': 'var(--em-core-spacing--0100)',
   '--em-chart-label-padding-top-bottom': 'var(--em-core-spacing--0050)',
-
   '--em-chart-tooltip-background': 'var(--em-sem-background--inverted)',
   '--em-chart-tooltip-border-radius': 'var(--em-core-border-radius--300)',
   '--em-chart-tooltip-family': 'var(--em-core-font-family--base)',
@@ -141,7 +239,6 @@ export const stylesTokensComponents = {
   '--em-chart-tooltip-title-font-size': 'var(--em-core-font-size--sm)',
   '--em-chart-tooltip-title-font-weight': 'var(--em-core-font-weight--bold)',
   '--em-chart-tooltip-title-line-height': 'var(--em-core-line-height--md)',
-
   '--em-field-feedback-color': 'var(--em-sem-text--muted)',
   '--em-field-feedback-color--error': 'var(--em-sem-status-error-text)',
   '--em-field-feedback-error-font-size': 'var(--em-core-font-size--xs)',
@@ -161,7 +258,6 @@ export const stylesTokensComponents = {
   '--em-field-header-title-font-size': 'var(--em-core-font-size--sm)',
   '--em-field-header-title-font-weight': 'var(--em-core-font-weight--medium)',
   '--em-field-header-title-line-height': 'var(--em-core-line-height--md)',
-
   '--em-ghostbutton-background--active': 'var(--em-sem-background--light)',
   '--em-ghostbutton-background--hover': 'var(--em-sem-background)',
   '--em-ghostbutton-border-radius': 'var(--em-core-border-radius--100)',
@@ -176,7 +272,6 @@ export const stylesTokensComponents = {
   '--em-ghostbutton-label-padding-right': 'var(--em-core-spacing--0100)',
   '--em-ghostbutton-line-height': 'var(--em-core-line-height--sm)',
   '--em-ghostbutton-padding': 'var(--em-core-spacing--0050)',
-
   '--em-kpichart-color': 'var(--em-sem-text)',
   '--em-kpichart-font-family': 'var(--em-core-font-family--base)',
   '--em-kpichart-gap': 'var(--em-core-spacing--0600)',
@@ -198,15 +293,12 @@ export const stylesTokensComponents = {
   '--em-kpichart-trend-icon-size': 'var(--em-core-size--0400)',
   '--em-kpichart-trend-line-height': 'var(--em-core-line-height--md)',
   '--em-kpichart-trend-padding': 'var(--em-core-spacing--0100)',
-
   '--em-linechart-line-dash': 'var(--em-core-size--0100)',
   '--em-linechart-line-gap': 'var(--em-core-size--0100)',
   '--em-linechart-line-width': '2px',
   '--em-linechart-point-size': 'var(--em-core-size--0200)',
   '--em-linechart-point-size--hover': 'var(--em-core-size--0300)',
-
   '--em-overlay-background': 'rgb(33 33 41 / 80%)',
-
   '--em-piechart-donut-color': 'var(--em-sem-text)',
   '--em-piechart-donut-label-font-size': 'var(--em-core-font-size--md)',
   '--em-piechart-donut-label-font-weight': 'var(--em-core-font-weight--medium)',
@@ -215,7 +307,6 @@ export const stylesTokensComponents = {
   '--em-piechart-donut-number-font-weight': 'var(--em-core-font-weight--bold)',
   '--em-piechart-donut-number-line-height': 'var(--em-core-line-height--xl)',
   '--em-piechart-font-family': 'var(--em-core-font-family--base)',
-
   '--em-selectfield-category-background': 'var(--em-sem-background--subtle)',
   '--em-selectfield-category-border-radius': 'var(--em-core-border-radius--150)',
   '--em-selectfield-category-color': 'var(--em-sem-text--neutral)',
@@ -229,7 +320,7 @@ export const stylesTokensComponents = {
   '--em-selectfield-content-gap': 'var(--em-core-spacing--0200)',
   '--em-selectfield-content-max-height': '320px',
   '--em-selectfield-content-max-width': '400px',
-  '--em-selectfield-content-opacity--loading': '0.5',
+  '--em-selectfield-content-opacity--loading': '50px',
   '--em-selectfield-content-padding': 'var(--em-core-spacing--0200)',
   '--em-selectfield-content-shadow-blur': 'var(--em-core-shadow-blur)',
   '--em-selectfield-content-shadow-color': 'var(--em-core-shadow-color)',
@@ -261,7 +352,6 @@ export const stylesTokensComponents = {
   '--em-selectfield-item-label-right-font-weight': 'var(--em-core-font-weight--regular)',
   '--em-selectfield-item-label-right-line-height': 'var(--em-core-line-height--sm)',
   '--em-selectfield-item-padding': 'var(--em-core-spacing--0200)',
-
   '--em-selectfield-trigger-background': 'var(--em-sem-background--neutral)',
   '--em-selectfield-trigger-background--active': 'var(--em-sem-background--light)',
   '--em-selectfield-trigger-background--filled': 'var(--em-sem-background--inverted)',
@@ -283,9 +373,7 @@ export const stylesTokensComponents = {
   '--em-selectfield-trigger-line-height': 'var(--em-core-line-height--sm)',
   '--em-selectfield-trigger-min-width': '64px',
   '--em-selectfield-trigger-padding': 'var(--em-core-spacing--0300)',
-
   '--em-skeleton-border-radius': 'var(--em-core-border-radius--300)',
-
   '--em-switch-background--disabled': 'var(--em-sem-background--subtle)',
   '--em-switch-background--off': 'var(--em-sem-background--inverted)',
   '--em-switch-background--on': 'var(--em-sem-background--subtle)',
@@ -309,7 +397,6 @@ export const stylesTokensComponents = {
   '--em-switch-thumb-padding': 'var(--em-core-spacing--0050)',
   '--em-switch-thumb-size': 'var(--em-core-size--0300)',
   '--em-switch-width': 'var(--em-core-size--0800)',
-
   '--em-tablechart-border-color': 'var(--em-sem-background--light)',
   '--em-tablechart-border-radius': 'var(--em-core-border-radius--300)',
   '--em-tablechart-border-width': '1px',
@@ -334,7 +421,6 @@ export const stylesTokensComponents = {
   '--em-tablechart-pagination-button-gap': 'var(--em-core-spacing--0200)',
   '--em-tablechart-pagination-height': 'var(--em-core-size--1200)',
   '--em-tablechart-pagination-label-padding-left-right': 'var(--em-core-spacing--0400)',
-
   '--em-textfield-background': 'var(--em-sem-background)',
   '--em-textfield-background--active': 'var(--em-sem-background--subtle)',
   '--em-textfield-background--disabled': 'var(--em-sem-background--neutral)',
@@ -366,6 +452,12 @@ export const stylesTokensComponents = {
   '--em-textfield-min-width': '160px',
   '--em-textfield-padding': 'var(--em-core-spacing--0200)',
 };
+
+type StylesTokensCore = typeof stylesTokensCore;
+export type StylesTokensCoreKeys = keyof StylesTokensCore;
+
+type StylesTokensSemantic = typeof stylesTokensSemantic;
+export type StylesTokensSemanticKeys = keyof StylesTokensSemantic;
 
 type StylesTokensComponents = typeof stylesTokensComponents;
 export type StylesTokensComponentsKeys = keyof StylesTokensComponents;

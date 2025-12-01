@@ -1,6 +1,6 @@
 import { IconAccessibleFilled, IconBoltFilled, IconSquareX, IconTrash } from '@tabler/icons-react';
 import { InputType } from 'storybook/internal/csf';
-import { stylesTokensCore } from './styles/styles.tokensCore.constants';
+import { stylesTokensCore } from './styles/global.tokens';
 
 export const storybookArgTypesIcon: InputType = {
   options: ['IconBoltFilled', 'IconAccessibleFilled', 'IconSquareX', 'IconTrash'],

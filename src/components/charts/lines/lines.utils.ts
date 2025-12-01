@@ -1,5 +1,5 @@
 import { ChartData, ChartDataset, ChartOptions } from 'chart.js';
-import { chartContrastColors } from '../charts.constants';
+import { getChartContrastColors } from '../charts.constants';
 import { mergician } from 'mergician';
 import { LineChartConfigurationProps } from './lines.types';
 import {
@@ -12,6 +12,7 @@ import {
 import { getStyleNumber } from '../../../styles/styles.utils';
 
 export const getLineChartData = (data: ChartData<'line'>) => {
+  const chartContrastColors = getChartContrastColors();
   const mergedData: ChartData<'line', number[], unknown> = {
     ...data,
     datasets:

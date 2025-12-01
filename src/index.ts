@@ -54,7 +54,7 @@ export { useTableGetRowsPerPage } from './components/charts/tables/Table/Table.h
 export { getTableTotalPages } from './components/charts/tables/Table/components/TablePagination/TablePagination';
 
 // Constants
-export { chartColors, chartContrastColors } from './components/charts/charts.constants';
+export { getChartColors, getChartContrastColors } from './components/charts/charts.constants';
 export { type Styles } from './styles/styles.constants';
 
 // Chartjs

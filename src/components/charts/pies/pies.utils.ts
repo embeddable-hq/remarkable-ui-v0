@@ -1,12 +1,13 @@
 import { ChartData, ChartDataset, ChartOptions } from 'chart.js';
 import { mergician } from 'mergician';
-import { chartColors } from '../charts.constants';
+import { getChartColors } from '../charts.constants';
 import { getChartjsOptions } from '../chartjs.constants';
 import { PieChartConfigurationProps } from './pies.types';
 import { AnnotationOptions } from 'chartjs-plugin-annotation';
 import { getStyle, getStyleNumber } from '../../../styles/styles.utils';
 
 export const getPieChartData = (data: ChartData<'pie'>) => {
+  const chartColors = getChartColors();
   const mergedData: ChartData<'pie', number[], unknown> = {
     ...data,
     datasets:

@@ -1,4 +1,4 @@
-import { stylesTokensCore } from '../../../styles/styles.tokensCore.constants';
+import { stylesTokensCore } from '../../../styles/global.tokens';
 
 export default {
   title: 'Foundations/Size',
@@ -10,7 +10,7 @@ const stylesSize = Object.fromEntries(
 
 const style = {
   height: '25px',
-  backgroundColor: stylesTokensCore['--em-core-color-orange--900'],
+  backgroundColor: stylesTokensCore['--em-core-color-gray--1000'],
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',

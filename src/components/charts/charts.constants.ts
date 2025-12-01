@@ -1,6 +1,6 @@
 import { getStyle } from '../../styles/styles.utils';
 
-export const chartColors: string[] = [
+export const getChartColors = (): string[] => [
   getStyle('--em-sem-chart-color--1'),
   getStyle('--em-sem-chart-color--2'),
   getStyle('--em-sem-chart-color--3'),
@@ -13,7 +13,7 @@ export const chartColors: string[] = [
   getStyle('--em-sem-chart-color--10'),
 ];
 
-export const chartContrastColors: string[] = [
+export const getChartContrastColors = (): string[] => [
   getStyle('--em-sem-chart-color--1'),
   getStyle('--em-sem-chart-color--4'),
   getStyle('--em-sem-chart-color--7'),

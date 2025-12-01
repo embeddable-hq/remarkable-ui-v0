@@ -1,5 +1,5 @@
 import { storybookStyleLabel } from '../../../storybook.constants';
-import { stylesTokensCore } from '../../../styles/styles.tokensCore.constants';
+import { stylesTokensCore } from '../../../styles/global.tokens';
 
 export default {
   title: 'Foundations/BorderRadius',
@@ -12,7 +12,7 @@ const stylesBorderRadius = Object.fromEntries(
 const style = {
   width: '100px',
   height: '50px',
-  backgroundColor: stylesTokensCore['--em-core-color-orange--900'],
+  backgroundColor: stylesTokensCore['--em-core-color-gray--1000'],
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',

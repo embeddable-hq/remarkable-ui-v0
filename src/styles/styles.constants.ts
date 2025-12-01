@@ -1,9 +1,11 @@
 import {
   stylesTokensComponents,
   StylesTokensComponentsKeys,
-} from './styles.tokensComponents.constants';
-import { stylesTokensCore, StylesTokensCoreKeys } from './styles.tokensCore.constants';
-import { stylesTokensSemantic, StylesTokensSemanticKeys } from './styles.tokensSemantic.constants';
+  stylesTokensCore,
+  StylesTokensCoreKeys,
+  stylesTokensSemantic,
+  StylesTokensSemanticKeys,
+} from './global.tokens';
 
 type StylesTokensCore = Record<StylesTokensCoreKeys, string>;
 type StylesTokensSemantic = Record<StylesTokensSemanticKeys, string>;

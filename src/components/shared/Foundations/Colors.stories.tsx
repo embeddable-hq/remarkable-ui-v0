@@ -1,5 +1,5 @@
 import { storybookStyleLabel } from '../../../storybook.constants';
-import { stylesTokensCore } from '../../../styles/styles.tokensCore.constants';
+import { stylesTokensCore } from '../../../styles/global.tokens';
 
 export default {
   title: 'Foundations/Colors',
