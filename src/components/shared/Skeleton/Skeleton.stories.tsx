@@ -3,7 +3,7 @@ import type { Meta } from '@storybook/react-webpack5';
 import { Skeleton } from './Skeleton';
 
 const meta = {
-  title: 'Shared/✅ Skeleton',
+  title: 'Shared/Skeleton',
   component: Skeleton,
 } satisfies Meta<typeof Skeleton>;
 

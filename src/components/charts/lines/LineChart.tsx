@@ -18,6 +18,7 @@ import { BaseLineChartProps } from './lines.types';
 import { getLineChartData, getLineChartOptions } from './lines.utils';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
 import { getSegmentIndexClicked } from '../chartjs.utils';
+import AnnotationPlugin from 'chartjs-plugin-annotation';
 
 ChartJS.register(
   CategoryScale,
@@ -30,6 +31,7 @@ ChartJS.register(
   Tooltip,
   Legend,
   ChartDataLabels,
+  AnnotationPlugin,
 );
 
 export type LineChartProps = BaseLineChartProps;

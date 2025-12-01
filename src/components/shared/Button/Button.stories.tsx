@@ -5,7 +5,7 @@ import { storybookArgTypesIcon } from '../../../storybook.constants';
 import { IconBoltFilled } from '@tabler/icons-react';
 
 const meta = {
-  title: 'Shared/✅ Button',
+  title: 'Shared/Button',
   component: Button,
   args: {
     children: 'Button',

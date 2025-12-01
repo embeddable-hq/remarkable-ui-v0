@@ -19,7 +19,7 @@ const data: ChartData<'bar'> = {
 };
 
 const meta = {
-  title: 'Charts/✅ BarChart',
+  title: 'Charts/BarChart',
   component: BarChart,
   decorators: [
     (Story) => (

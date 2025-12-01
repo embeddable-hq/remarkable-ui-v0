@@ -2,7 +2,7 @@ import { storybookStyleLabel } from '../../../storybook.constants';
 import { stylesTokensCore } from '../../../styles/styles.tokensCore.constants';
 
 export default {
-  title: 'Foundations/✅ Colors',
+  title: 'Foundations/Colors',
 };
 
 const stylesColors = Object.fromEntries(

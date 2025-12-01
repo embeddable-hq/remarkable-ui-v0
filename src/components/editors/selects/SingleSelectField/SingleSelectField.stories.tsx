@@ -165,7 +165,7 @@ const mockOptionsWithCategories: SelectListOptionPropsWithCategory[] = [
 ];
 
 const meta = {
-  title: 'Editors/✅ SingleSelectField',
+  title: 'Editors/SingleSelectField',
   component: SingleSelectField,
   args: {
     label: 'Label',

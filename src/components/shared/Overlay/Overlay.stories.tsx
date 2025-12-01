@@ -3,7 +3,7 @@ import { Overlay } from './Overlay';
 import { Card } from '../Card/Card';
 
 const meta = {
-  title: 'Shared/✅ Overlay',
+  title: 'Shared/Overlay',
   component: Overlay,
 } satisfies Meta<typeof Overlay>;
 

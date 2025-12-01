@@ -52,7 +52,7 @@ const headers: TableHeaderItem<Client>[] = [
 ];
 
 const meta: Meta = {
-  title: 'Charts/✅ Table',
+  title: 'Charts/Table',
   component: TablePaginatedChart,
   args: {
     showIndex: true,

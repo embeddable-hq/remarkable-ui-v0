@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react-webpack5';
 import { KpiChart } from './KpiChart';
 
 const meta = {
-  title: 'Charts/✅ KpiChart',
+  title: 'Charts/KpiChart',
   component: KpiChart,
   decorators: [
     (Story) => (

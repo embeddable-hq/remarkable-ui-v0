@@ -6,7 +6,7 @@ import { useArgs } from 'storybook/internal/preview-api';
 import { storybookArgTypesIcon } from '../../../../storybook.constants';
 
 const meta = {
-  title: 'Editors/✅ TextField',
+  title: 'Editors/TextField',
   component: TextField,
   args: {
     label: 'Label',

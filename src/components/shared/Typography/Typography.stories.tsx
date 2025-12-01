@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react-webpack5';
 import { Typography } from './Typography';
 
 const meta = {
-  title: 'Shared/✅ Typography',
+  title: 'Shared/Typography',
   component: Typography,
 } satisfies Meta<typeof Typography>;
 

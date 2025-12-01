@@ -7,10 +7,11 @@ export const getChartjsOptionsPlugins = (): Partial<ChartOptions['plugins']> => 
     borderRadius: getStyleNumber('--em-chart-label-border-radius', '624.9375rem'),
     padding: {
       top: getStyleNumber('--em-chart-label-padding-top-bottom', '0.125rem'),
-      bottom: getStyleNumber('--em-chart-label-padding-top-bottom', '0.25rem'),
-      right: getStyleNumber('--em-chart-label-padding-left-right', '0.125rem'),
+      bottom: getStyleNumber('--em-chart-label-padding-top-bottom', '0.125rem'),
+      right: getStyleNumber('--em-chart-label-padding-left-right', '0.25rem'),
       left: getStyleNumber('--em-chart-label-padding-left-right', '0.25rem'),
     },
+
     color: getStyle('--em-chart-label-color', '#212129'),
     font: {
       size: getStyleNumber('--em-chart-label-font-size', '0.75rem'),

@@ -5,7 +5,7 @@ import { ButtonIcon } from './ButtonIcon';
 import { storybookArgTypesIcon } from '../../../storybook.constants';
 
 const meta = {
-  title: 'Shared/✅ ButtonIcon',
+  title: 'Shared/ButtonIcon',
   component: ButtonIcon,
   args: {
     size: 'medium',

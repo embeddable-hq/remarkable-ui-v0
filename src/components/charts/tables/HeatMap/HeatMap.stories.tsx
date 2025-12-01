@@ -31,7 +31,7 @@ const data: Data[] = [
 ];
 
 const meta = {
-  title: 'Charts/✅ HeatMap',
+  title: 'Charts/HeatMap',
   component: HeatMap,
   args: {
     data,

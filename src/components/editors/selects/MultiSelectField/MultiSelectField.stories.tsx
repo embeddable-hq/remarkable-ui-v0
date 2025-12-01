@@ -145,7 +145,7 @@ const mockOptionsWithCategories: SelectListOptionPropsWithCategory[] = [
 ];
 
 const meta = {
-  title: 'Editors/✅ MultiSelectField',
+  title: 'Editors/MultiSelectField',
   component: MultiSelectField,
   args: {
     label: 'Label',

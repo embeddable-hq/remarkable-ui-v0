@@ -1,7 +1,7 @@
 import { stylesTokensCore } from '../../../styles/styles.tokensCore.constants';
 
 export default {
-  title: 'Foundations/✅ Spacing',
+  title: 'Foundations/Spacing',
 };
 
 const stylesSpacing = Object.fromEntries(

@@ -4,7 +4,7 @@ import { PieChart } from './PieChart';
 import { pieDataMock } from '../pies.mock';
 
 const meta = {
-  title: 'Charts/✅ PieChart',
+  title: 'Charts/PieChart',
   component: PieChart,
   decorators: [
     (Story) => (

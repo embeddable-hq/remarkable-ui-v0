@@ -4,7 +4,7 @@ import { CardFeedback } from './CardFeedback/CardFeedback';
 import { IconBoltFilled } from '@tabler/icons-react';
 
 const meta = {
-  title: 'Shared/✅ Card',
+  title: 'Shared/Card',
   component: Card,
 } satisfies Meta<typeof Card>;
 

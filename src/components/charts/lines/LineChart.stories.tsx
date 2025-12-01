@@ -20,7 +20,7 @@ const data: ChartData<'line'> = {
 };
 
 const meta = {
-  title: 'Charts/✅ LineChart',
+  title: 'Charts/LineChart',
   component: LineChart,
   args: {
     data,

@@ -4,7 +4,7 @@ import { Switch } from './Switch';
 import { useArgs } from 'storybook/internal/preview-api';
 
 const meta = {
-  title: 'Editors/✅ Switch',
+  title: 'Editors/Switch',
   component: Switch,
   args: {
     checked: false,

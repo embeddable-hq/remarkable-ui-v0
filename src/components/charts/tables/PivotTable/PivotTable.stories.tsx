@@ -75,7 +75,7 @@ const columnDimension: PivotTableProps<Data>['columnDimension'] = {
 };
 
 const meta = {
-  title: 'Charts/✅ PivotTable',
+  title: 'Charts/PivotTable',
   component: PivotTable,
   args: {
     data,

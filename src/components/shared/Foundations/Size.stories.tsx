@@ -1,7 +1,7 @@
 import { stylesTokensCore } from '../../../styles/styles.tokensCore.constants';
 
 export default {
-  title: 'Foundations/✅ Size',
+  title: 'Foundations/Size',
 };
 
 const stylesSize = Object.fromEntries(

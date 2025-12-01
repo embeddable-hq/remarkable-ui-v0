@@ -5,7 +5,7 @@ import { IconBoltFilled } from '@tabler/icons-react';
 import { storybookArgTypesIconNullable } from '../../../storybook.constants';
 
 const meta = {
-  title: 'shared/✅ GhostButton',
+  title: 'shared/GhostButton',
   component: GhostButton,
   args: {
     children: 'Ghost Button',
