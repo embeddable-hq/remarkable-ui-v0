@@ -3,7 +3,7 @@ import { chartContrastColors } from '../charts.constants';
 import { mergician } from 'mergician';
 import { LineChartConfigurationProps } from './lines.types';
 import {
-  chartjsAxisOptions,
+  getChartjsAxisOptions,
   chartjsAxisOptionsLayoutPadding,
   getChartjsAxisOptionsScalesGridColor,
   getChartjsAxisOptionsScalesTicksDefault,
@@ -102,5 +102,5 @@ export const getLineChartOptions = (
     },
   };
 
-  return mergician(chartjsAxisOptions, newOptions);
+  return mergician(getChartjsAxisOptions(), newOptions);
 };

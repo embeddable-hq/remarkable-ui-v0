@@ -11,7 +11,7 @@ export const stylesTokensComponents = {
   '--em-actionicon-padding-top-bottom': 'var(--em-core-spacing--0200)',
   '--em-actionicon-width': 'var(--em-core-size--0500)',
 
-  '--em-barchart-border-raidus': 'var(--em-core-border-radius--150)',
+  '--em-barchart-border-radius': 'var(--em-core-border-radius--150)',
   '--em-barchart-label-gap': 'var(--em-core-spacing--0200)',
 
   '--em-button-background--disabled': 'var(--em-sem-background--light)',

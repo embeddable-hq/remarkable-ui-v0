@@ -1,7 +1,7 @@
 import { ChartData, ChartDataset, ChartOptions } from 'chart.js';
 import { mergician } from 'mergician';
 import { chartColors } from '../charts.constants';
-import { chartjsOptions } from '../chartjs.constants';
+import { getChartjsOptions } from '../chartjs.constants';
 import { PieChartConfigurationProps } from './pies.types';
 import { AnnotationOptions } from 'chartjs-plugin-annotation';
 import { getStyle, getStyleNumber } from '../../../styles/styles.utils';
@@ -37,7 +37,7 @@ export const getPieChartOptions = (
       },
     },
   };
-  return mergician(chartjsOptions, pieChartOptions);
+  return mergician(getChartjsOptions(), pieChartOptions);
 };
 
 export const getDonutChartOptions = (

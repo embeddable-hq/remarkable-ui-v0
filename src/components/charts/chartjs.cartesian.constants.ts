@@ -1,9 +1,9 @@
 import { CartesianTickOptions, ChartOptions, GridLineOptions } from 'chart.js';
 import { getStyle, getStyleNumber } from '../../styles/styles.utils';
 import { mergician } from 'mergician';
-import { chartjsOptions } from './chartjs.constants';
+import { getChartjsOptions } from './chartjs.constants';
 
-export const chartjsAxisOptionsPlugins: Partial<ChartOptions['plugins']> = {
+export const getChartjsAxisOptionsPlugins = (): Partial<ChartOptions['plugins']> => ({
   datalabels: {
     labels: {
       total: {
@@ -28,7 +28,7 @@ export const chartjsAxisOptionsPlugins: Partial<ChartOptions['plugins']> = {
       },
     },
   },
-};
+});
 
 export const getChartjsAxisOptionsScalesTicksDefault = (): Partial<CartesianTickOptions> => ({
   display: true,
@@ -65,7 +65,7 @@ export const getChartjsAxisOptionsScalesGrid = (): Partial<GridLineOptions> => (
   lineWidth: getStyleNumber('--em-chart-grid-line-width--thin', '0.0625rem'),
 });
 
-export const chartjsAxisOptionsScales: Partial<ChartOptions['scales']> = {
+export const getChartjsAxisOptionsScales = (): Partial<ChartOptions['scales']> => ({
   x: {
     grid: getChartjsAxisOptionsScalesGrid(),
     title: getChartjsAxisOptionsScalesTitle(),
@@ -76,12 +76,13 @@ export const chartjsAxisOptionsScales: Partial<ChartOptions['scales']> = {
     title: getChartjsAxisOptionsScalesTitle(),
     ticks: getChartjsAxisOptionsScalesTicksMuted(),
   },
-};
-
-export const chartjsAxisOptions: Partial<ChartOptions> = mergician(chartjsOptions, {
-  plugins: chartjsAxisOptionsPlugins,
-  scales: chartjsAxisOptionsScales,
 });
+
+export const getChartjsAxisOptions = (): Partial<ChartOptions> =>
+  mergician(getChartjsOptions(), {
+    plugins: getChartjsAxisOptionsPlugins(),
+    scales: getChartjsAxisOptionsScales(),
+  });
 
 export const chartjsAxisOptionsLayoutPadding: number = 30;
 

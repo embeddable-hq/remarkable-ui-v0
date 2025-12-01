@@ -55,7 +55,7 @@ export { getTableTotalPages } from './components/charts/tables/Table/components/
 
 // Constants
 export { chartColors, chartContrastColors } from './components/charts/charts.constants';
-export { styles, type Styles } from './styles/styles.constants';
+export { type Styles } from './styles/styles.constants';
 
 // Chartjs
 export * from './components/charts/chartjs.cartesian.constants';
@@ -63,3 +63,10 @@ export * from './components/charts/chartjs.cartesian.constants';
 // Utils
 export { getStyle, getStyleNumber } from './styles/styles.utils';
 export { useDebounce } from './hooks/useDebounce.hook';
+
+// Types
+export * from './types/css.types';
+
+// Hooks
+export * from './hooks/useDebounce.hook';
+export * from './hooks/useObserverHeight.hook';

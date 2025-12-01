@@ -60,7 +60,6 @@
   cursor: pointer;
   position: relative;
   box-sizing: border-box;
-  background: var(--em-tablechart-header-background, #fff);
   padding: var(--em-tablechart-cell-padding, 0.5rem)
     calc(
       var(--em-tablechart-cell-padding, 0.5rem) + var(--em-tablechart-padding-left-right, 0.25rem)
@@ -71,7 +70,14 @@
     var(--em-tablechart-border-color, #ededf1);
   height: var(--em-tablechart-cell-height, 2.5rem);
   max-height: var(--em-tablechart-cell-height, 2.5rem);
-  /* min-width: var(--em-tablechart-cell-min-width, 3rem); DENIS */
+}
+
+.table th {
+  background: var(--em-tablechart-header-background, #fff);
+}
+
+.table td {
+  background: var(--em-tablechart-cell-background, #fff);
 }
 
 .table thead th:last-of-type,

@@ -1,3 +1,4 @@
+import { getStyle } from '../../../../styles/styles.utils';
 import { HeatMapPropsMeasure, HeatMapPropsThreshold } from './HeatMap.types';
 
 /* -------------------------------------------------------------------------- */
@@ -180,7 +181,8 @@ export const getCellBackground = (
   value: number | string | undefined,
   colorForValue: (t: number) => string,
 ): string => {
-  if (typeof value !== 'number' || !Number.isFinite(value)) return 'white';
+  if (typeof value !== 'number' || !Number.isFinite(value))
+    return getStyle('--em-tablechart-cell-background', '#fff');
   return colorForValue(value);
 };
 

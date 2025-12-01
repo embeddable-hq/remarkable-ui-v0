@@ -5,8 +5,8 @@ import { mergician } from 'mergician';
 import { BarChartConfigurationProps, BarChartHorizontalConfigurationProps } from './bars.types';
 import { Context } from 'chartjs-plugin-datalabels';
 import {
-  chartjsAxisOptions,
   chartjsAxisOptionsLayoutPadding,
+  getChartjsAxisOptions,
   getChartjsAxisOptionsScalesGridColor,
   getChartjsAxisOptionsScalesTicksDefault,
   getChartjsAxisOptionsScalesTicksMuted,
@@ -166,7 +166,7 @@ export const getBarChartOptions = (
   const baseBarChartOptions: Partial<ChartOptions<'bar'>> = {
     elements: {
       bar: {
-        borderRadius: getStyleNumber('--em-barchart-border-raidus', '0.375rem'),
+        borderRadius: getStyleNumber('--em-barchart-border-radius', '0.375rem'),
       },
     },
     plugins: {
@@ -227,5 +227,5 @@ export const getBarChartOptions = (
 
   const verticalHorizontalOptions = getVerticalHorizontalOptions(options);
 
-  return mergician(chartjsAxisOptions, baseBarChartOptions, verticalHorizontalOptions);
+  return mergician(getChartjsAxisOptions(), baseBarChartOptions, verticalHorizontalOptions);
 };
